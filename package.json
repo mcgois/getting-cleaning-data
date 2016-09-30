@@ -1,0 +1,31 @@
+{
+  "name": "getting-cleaning-data",
+  "version": "1.0.0",
+  "description": "Getting and Cleaning Data - Cousera Project",
+  "main": "index.js",
+  "scripts": {
+    "markdown": "gulp readme"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mcgois/getting-cleaning-data.git"
+  },
+  "keywords": [
+    "data",
+    "science",
+    "getting",
+    "cleaning",
+    "r",
+    "language"
+  ],
+  "author": "Matheus Cabral",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mcgois/getting-cleaning-data/issues"
+  },
+  "homepage": "https://github.com/mcgois/getting-cleaning-data#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-markdown": "^1.2.0"
+  }
+}
