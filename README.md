@@ -1,13 +1,13 @@
 Getting and Cleaning Data Course Project
 ========================================
 
-This repository is for the final project of Cousera's Getting and Cleaning Data Course 
+This repository is for the final project of Cousera's Getting and Cleaning Data Course
 (Course 3 of Data Science Specialization).
 
 Repository Contents:
 --------------------
-    
-1. data (directory) - directory where all given data is.
+
+1. data (directory) - directory where all given data is. (will be created upon program execution).
 2. README.md - this readme file.
 3. run_analisys.R - scripts to manipulate data and generate tidy data.
 4. tidy.txt - tidy data, final output of the assignment.
@@ -16,7 +16,7 @@ Repository Contents:
 Instructions to run:
 --------------------
 
-* On R environment, just execute source("run_analisys.R"). 
+* On R environment, just execute source("run_analisys.R").
 * The script will download and unzip the data (if necessary).
 * The script will generate two dataframes: **all.data** and **tidy**).
 * Dataframe **all.data** contains the merged data (with mean and std measurements) of train and test.
@@ -47,7 +47,7 @@ Function that returns a vector of all features in dataset, including the ones we
 ### Function *read.data*
 
 Function that reads train and test data (measurements, activities, subjects) and returns the data frame.
- 
+
 * To return train data frame, call read.data with dataType argument equal to "train".
 * To return test data frame, call read.data with dataType argument equal to "test".
 
@@ -57,5 +57,5 @@ Function that orchestrates previous functions and returns a merged data frame of
 
 ### Function *create.tidy*
 
-Function that transforms the "all.data" dataframe into another dataframe with 
+Function that transforms the "all.data" dataframe into another dataframe with
 the average of each variable for each activity and each subject.

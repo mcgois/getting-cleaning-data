@@ -4,7 +4,7 @@
   "description": "Getting and Cleaning Data - Cousera Project",
   "main": "index.js",
   "scripts": {
-    "markdown": "gulp readme"
+    "markdown": "gulp readme codebook"
   },
   "repository": {
     "type": "git",

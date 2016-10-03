@@ -6,3 +6,9 @@ gulp.task('readme', function () {
         .pipe(markdown())
         .pipe(gulp.dest('./'));
 });
+
+gulp.task('codebook', function () {
+    return gulp.src('codebook.md')
+        .pipe(markdown())
+        .pipe(gulp.dest('./'));
+});
