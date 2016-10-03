@@ -93,7 +93,7 @@ create.tidy <- function(all.data) {
   tidy <- dcast(all.data.melted, subject + activity ~ variable, mean)
   
   # generates tidy data file
-  write.table(tidy, "tidy.txt")
+  write.table(tidy, "tidy.txt", row.names = FALSE)
   
   tidy
 }
